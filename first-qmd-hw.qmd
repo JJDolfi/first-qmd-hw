@@ -23,6 +23,8 @@ editor: visual
 ## Table/Graph
 
 ```{r}
+#All code made using tidyverse style guide.
+
 library(tidyverse)
 library(rvest)
 library(dplyr)
@@ -321,6 +323,8 @@ I used ASU's image accessibility creator which uses GPT 4.0 to create the Alt Te
 In making these graphs, I hoped to observe how the estimated result of the integral would change given different values for n, and you can see that when the n increases, the value of the estimated numerical integration gets closer to the true mathematical value. This represents the trend that increasing sample size generally generates more accurate results, as statistical outliers get nullified by the larger amount of points that follow the trend. The exact answer to the equation is somewhere near 0.928, as the simulation with the largest n (n = 10000) indicates.
 
 ## **Propmting GenAI**
+
+Uses "calcium.csv" (found in main branch of first-qmd-hw repo)
 
 ## *Plan-Informed Response*
 
