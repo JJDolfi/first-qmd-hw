@@ -1,0 +1,23 @@
+Repo Plan File:
+
+Goal: 
+Create a repo to store our QMD file created in homework 4.3
+
+Plan to create:
+1. Create Repo on GitHub
+2. Use the template provided in the main Stat 184 repo
+3. Add QMD file to the repo's loaction on the computer
+4. Make necessary changed to my QMD file
+5. Commit changes
+6. Pull into repo
+7. Render QMD PDF, commit and pull into repo (#2)
+8. Create ReadMe file in dev branch
+9. Commit to dev branch, pull into main branch (#3, #4)
+
+Needs: 
+GitHub, Git, R Studio, repo template, Quarto 
+
+Maintaining the Repo:
+I will activley update this repo when changes are needed, pushing all commits to the dev branch,
+where i will then pull into the main branch. If needed, the repo is scalable through the creation
+of purpose-specific folders for organization.
