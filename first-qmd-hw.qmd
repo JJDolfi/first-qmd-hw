@@ -324,7 +324,7 @@ In making these graphs, I hoped to observe how the estimated result of the integ
 
 ## **Propmting GenAI**
 
-Uses "calcium.csv" (found in main branch of first-qmd-hw repo)
+Uses "calcium.csv" (found in main branch of first-qmd-hw repo )
 
 ## *Plan-Informed Response*
 
