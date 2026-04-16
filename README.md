@@ -1,28 +1,28 @@
-# Project Title
+# Homework 4.4
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This project is to create a GitHub Repo for my QMD file we created in HW 4.3.
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
+This project will include the raw QMD file, as well as a the rendered PDF output of the file. These files were created using R Studio, which were then linked to GitHub and committed and pushed to this repo. This is to allow easier access to these files, and so they are publically visible.
 
-### Interesting Insight (Optional)
+### Interesting Insight
 
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+From the created QMD file, we can observe some interesting trends. First of all, not so shockingly, in the airports graph near the top of the PDF file, air traffic has overall increased since 2020, which is not surprising because the industry saw record lows in that year because of the Covid-19 pandemic. Also, towards the bottom of the file (in the Prompting AI Section), I found that Microsoft Copilot actually preformed better when left to create the table and graph itself, rather than given specific instructions.
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+All data was collected from publically available datasets, or given directly to us through the Stat 184 course. The Airports dataset was available on Wikipedia, and the data for the GenAi Prompting section was given to us via a .csv file in homework 4.3. GenAi was used in that section as well, which is noted both within the section and in the GenAi Useage Appendix near the end of the document. 
 
 ## Current Plan
 
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+To accomplish this task, I will first edit the QMD file to fit the requirements for the assignment in R Studio. When that is completed, it, as well as its rendered PDF will be committed and pushed into the dev branch of this repo, where I will then execute a pull to merge it with the main branch.
 
 ## Repo Structure
 
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
+This repo is structured in a flat format because of the small amount of files in it, with all documents properly named to ensure that there is no confusion between files. It may be helpful to look at the end of the name of a file to determine which it is (i.e. .qmd being the code, while the .pdf if the PDF rendering produced by the code).
 
 
 ## Authors
 
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+Joshua Dolfi, jjd6682@psu.edu
